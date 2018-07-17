@@ -1,0 +1,71 @@
+identifier: YJWS
+
+provenance: The files in this directory are considered the primary instances, but they are also initial assembly versions, prior to deposition into GenBank - which will then become the primary, authoritative instances. The files here are held as part of the SoyBase, LegumeInfo, PeanutBase, and LegumeFederation projects. Please also see the associated usage_policy.txt Briefly: By accessing these data, you agree not to publish any articles containing analyses of genes or genomic data on a whole genome or chromosome scale prior to publication by the PGC and/or its collaborators of a comprehensive genome analysis ("Reserved Analyses"). See what is considered Reserved Analyses in the usage policy.
+
+source: https://legumefederation.org/data/ and mirrored at SoyBase, LegumeInfo, PeanutBase, and CyVerse
+
+subject: Glycine soja accession PI 483463 genome assembly, v1.0
+
+related_to: The genome assembly will be deposited in GenBank (anticipated late 2017). Changes are possible between assemblies in this repository and the GenBank instance.
+
+scientific_name: Glycine soja
+
+taxid: 3848
+
+bioproject: PRJNA407822
+
+scientific_name_abbrev: glyso
+
+genotype: PI 483463
+
+description: The aims of this project were to generate a high-quality reference genome assembly for Glycine soja accession PI 483463, which shows high genotypic diversity with respect to elite cultivars from Glycine max (soybean). The assembly incorporates Illumina sequence and optical mapping from NRGene. Pseudomolecule anchoring of scaffolds was accomplished using two dense genetic maps as well as synteny comparisons with the Glycine max reference assembly for cultivar Williams 82 (JGI Glyma.Wm82.a2) and Glycine max cultivar Lee. This assembly corresponds to quality control round 13 (QC13), Nov 7, 2017
+
+dataset_doi: none
+
+genbank_accession: PGFP00000000
+
+original_file_creation_date: 2017-11-08
+
+local_file_creation_date: 2017-11-08
+
+publication_doi: none
+
+dataset_release_date: 2017-11-08
+
+publication_title: none
+
+contributors: Henry T. Nguyen, Babu Valliyodan, Steven Cannon, Hon Ming Lam, Dave Edwards, Philipp Bayer, Jacqueline Campbell, Ting-Fung Chan, Jeremy Schmutz, Qijian Song
+
+data_curators: Jacqueline Campbell, Steven Cannon
+
+public_access_level: public
+
+license: Open, with usage agreement
+
+keywords: soybean
+
+citations: [initial, provisional citation, pre-publication:] Glycine max cv Lee and Glycine soja PI 483463 sequencing consortium, pre-publication
+
+file_transformation: 
+  - This pseudomolecule assembly derives from files Wild_soybean_genome.fasta and Wild_soybean_scaffolds.fasta received from NRGene, via Babu Valliyodan, April 6, 2017. Superscaffolds and all remaining scaffolds > 20,000 bp were evaluated by marker placement and using synteny with two other Glycine genome assemblies (Williams 82 and Lee) to assemble them into pseudomolecules (and remaining unanchored scaffolds).
+  - Pseudomolecules were generated, with gap spacers of 100 Ns, with the command
+  - order_and_orient.pl -OR QC13/glyso.PI483463.gnm1.YJWS.order_orient.txt \
+  - -out QC13/glyso.PI483463.gnm1.YJWS.pchr_entire \
+  - -in 02_Gs_scaffs_ge20k_split_clean -reverse -spacer 100 -entire -v
+
+changes: 
+  - 2017-11-08: masked mitochondrial, chloroplast, and adaptor sequences, after checking for apparent true/biological insertions (by comparison with three other Glycine assemblies: Williams 82, Lee, and G. soja W05). The following assemblies were masked:
+  - Gs.sc102	chloroplast
+  - Gs.sc117	mitochondrial
+  - Gs.sc126	mitochondrial
+  - Gs.sc135	chloroplast
+  - Gs.sc139	mitochondrial
+  - Gs.sc216	adaptor:NGB00719.1
+  - Gs.sc25	adaptor:NGB00714.1
+  - Gs.sc430	mitochondrial
+  - Gs.sc75	mitochondrial
+  - Gs.sc83	mitochondrial
+  - Gs.sc88	mitochondrial
+  - 2017-11-15: changed filename from glyso.PI483463.gnm1.YJWS.fna to glyso.PI483463.gnm1.YJWS.genome_main.fna , which resulted in a new md5 hash
+  - 2018-03-02 added MANIFEST files
+  - 2018-03-02 prefixed pseudomolecules and scaffolds with "glyso.PI483463.gnm1."
