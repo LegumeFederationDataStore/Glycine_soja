@@ -1,10 +1,9 @@
 # filename_in_this_repository: description
-  glyso.PI483463.gnm1.YJWS.agp.txt.gz: Tiling path (order and orientation of scaffolds), in AGP format
-  glyso.PI483463.gnm1.YJWS.genome_hardmasked.fna.gz: Pseudomolecule sequences and scaffolds, masked with Ns
-  glyso.PI483463.gnm1.YJWS.genome_main.fna.gz: Pseudomolecule sequences and scaffolds, as intact single sequences per chromosome, with scaffold sequences separated by 1000 Ns
-  glyso.PI483463.gnm1.YJWS.genome_softmasked.fna.gz: Pseudomolecule sequences and scaffolds, with lower-case masking
-  glyso.PI483463.gnm1.YJWS.order_orient.txt.gz: Order-and-orient file for pseudomolecule construction (alternate to AGP format)
-  glyso.PI483463.gnm1.YJWS.pchr_by_scaff.tar.gz: Pseudomolecule sequences, composed of ordered and oriented scaffold sequences
+glyso.PI483463.gnm1.YJWS.agp.txt.gz: Tiling path (order and orientation of scaffolds), in AGP format
+glyso.PI483463.gnm1.YJWS.genome_hardmasked.fna.gz: Pseudomolecule sequences and scaffolds, masked with Ns
+glyso.PI483463.gnm1.YJWS.genome_main.fna.gz: Pseudomolecule sequences and scaffolds, as intact single sequences per chromosome, with scaffold sequences separated by 1000 Ns
+glyso.PI483463.gnm1.YJWS.genome_softmasked.fna.gz: Pseudomolecule sequences and scaffolds, with lower-case masking
+glyso.PI483463.gnm1.YJWS.order_orient.txt.gz: Order-and-orient file for pseudomolecule construction (alternate to AGP format)
+glyso.PI483463.gnm1.YJWS.pchr_by_scaff.tar.gz: Pseudomolecule sequences, composed of ordered and oriented scaffold sequences
 glyso.PI483463.gnm1.YJWS.pchr_entire.tar.gz        
-  glyso.PI483463.gnm1.YJWS.scaffolds_split.tar.gz: Scaffold sequences, unordered, after splitting where necessary, and some gaps patched with smaller scaffolds, where noted. 
-
+glyso.PI483463.gnm1.YJWS.scaffolds_split.tar.gz: Scaffold sequences, unordered, after splitting where necessary, and some gaps patched with smaller scaffolds, where noted. 
