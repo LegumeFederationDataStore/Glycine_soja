@@ -69,3 +69,5 @@ changes:
   - 2017-11-15: changed filename from glyso.PI483463.gnm1.YJWS.fna to glyso.PI483463.gnm1.YJWS.genome_main.fna , which resulted in a new md5 hash
   - 2018-03-02 added MANIFEST files
   - 2018-03-02 prefixed pseudomolecules and scaffolds with "glyso.PI483463.gnm1."
+  - 2019-05-10 Fixed prefixing on scaffolds in the .fna files. Prefixes had an extraneous ".Gs"; e.g. glyso.PI483463.gnm1.Gs.sc286 should have been glyso.PI483463.gnm1.sc286
+
