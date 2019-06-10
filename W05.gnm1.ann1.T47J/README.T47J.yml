@@ -1,0 +1,74 @@
+%YAML 1.2
+
+identifier: T47J
+
+provenance: The files in this directory originated from http://www.wildsoydb.org/Gsoja_W05/. The www.wildsoydb.org repository is considered the primary repository and authoritative; files in the present directory are derived, and may have changes, as noted below. The files here are held as part of the LegumeInfo, SoyBase, and LegumeFederation projects, and are made available here for the purpose of reproducibility of analyses at these sites (e.g. gene family alignments and phylogenies, genome browsers, etc.) and for further use by researchers, as that research extends other analyses at the projects listed above. If you are conducting research on large-scale data sets for this species, please consider retrieving the data from the primary repositories. If you use the data in the present directory, please 1) please cite the data appropriately - generally referring to the original publications for this data; and if you make use of any significant modifications in the files (noted below under "Transformations" where applicable), then please also cite the respective database project(s) related to this directory.
+
+source: http://www.wildsoydb.org/Gsoja_W05/
+
+subject: Glycine soja accession W05 genome annotation files
+
+related_to: Genome assembly files Glycine_soja/W05.gnm1.SVL1
+
+scientific_name: Glycine soja
+
+taxid: 3848
+
+bioproject: PRJNA486704
+
+scientific_name_abbrev: glyso
+
+genotype: W05
+
+description: Genome annotations for the Glycine soja W05 genome assembly
+
+dataset_doi: none
+
+genbank_accession: QZWG00000000
+
+original_file_creation_date: 2019-03
+
+local_file_creation_date: 2019-05-14
+
+publication_doi: none
+
+dataset_release_date: 2015-05-20
+
+publication_title: 10.1038/s41467-019-09142-9
+
+contributors: Hon-Ming Lam, Ting-Fung Chan
+
+data_curators: Steven Cannon, Connor Cameron, Andrew Farmer
+
+public_access_level: public
+
+license: Open
+
+keywords: Glycine soja, wild soybean, W05
+
+citations: Xie, M. et al. (2019) A reference-grade wild soybean genome. Nat Commun, 10:1216
+
+file_transformation: 
+  - # prefix IDs - CDS
+  -   perl -pe 's/>/>glyso.W05.gnm1.ann1./' Gsoja.W05.gene.cds.fa > glyso.W05.gnm1.ann1.T47J.cds.fna
+   
+  - # prefix IDs - CDS
+  -   perl -pe 's/>/>glyso.W05.gnm1.ann1./' Gsoja.W05.gene.transcript.fa > glyso.W05.gnm1.ann1.T47J.transcript.fna
+   
+  - # Prefix functional annotations
+  -   perl -pe 's/^Glyso/glyso.W05.gnm1.ann1.Glyso/' Gsoja.W05.gene.function.InterProScan.tsv.txt > glyso.W05.gnm1.ann1.T47J.info_annot_InterProScan.txt
+   
+  - # Prefix IDs - protein
+  -   perl -pe 's/>/>glyso.W05.gnm1.ann1./' Gsoja.W05.gene.protein.fa > glyso.W05.gnm1.ann1.T47J.protein.faa
+   
+  - # Prefix reference IDs and gene IDs in GFF
+  -   perl -pe 's/^(\S+)/glyso.W05.gnm1.$1/' Gsoja.W05.gene.gff > glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3
+  -   perl -pi -e 's/=Glysoja/=glyso.W05.gnm1.ann1.Glysoja/g' glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3
+   
+  - # Rename name-mapping files
+  -   rename 's/NCBI/glyso.W05.gnm1.ann1.T47J.info.NCBI/' NCBI*
+   
+changes: 
+  - 2019-05-14 Initial repository created
+  - 2019-05-10 Added AHRD descriptors; moved collection to public
+

@@ -1,0 +1,12 @@
+%YAML 1.2
+glyso.PI483463.gnm1.ann1.T47J.cds.fna: Gsoja_509_v1.1.cds.fa
+glyso.PI483463.gnm1.ann1.T47J.cds_primaryTranscript.fna: Gsoja_509_v1.1.cds_primaryTranscriptOnly.fa
+glyso.PI483463.gnm1.ann1.T47J.gene_models_main.gff3: Gsoja_509_v1.1.gene.gff3
+glyso.PI483463.gnm1.ann1.T47J.gene_models_exons.gff3: Gsoja_509_v1.1.gene_exons.gff3
+glyso.PI483463.gnm1.ann1.T47J.protein.faa: Gsoja_509_v1.1.protein.fa
+glyso.PI483463.gnm1.ann1.T47J.protein_primaryTranscript.faa: Gsoja_509_v1.1.protein_primaryTranscriptOnly.fa
+glyso.PI483463.gnm1.ann1.T47J.repeatmasking.gff3: Gsoja_509_v1.1.repeatmasked_assembly_v1.0.gff3
+glyso.PI483463.gnm1.ann1.T47J.transcript.fna: Gsoja_509_v1.1.transcript.fa
+glyso.PI483463.gnm1.ann1.T47J.transcript_primaryTranscript.fna: Gsoja_509_v1.1.transcript_primaryTranscriptOnly.fa
+glyso.PI483463.gnm1.ann1.T47J.info_annot.txt: Gsoja_509_v1.1.annotation_info.txt
+glyma.Zh13.gnm1.ann1.8VV3.info_gene_annot.txt: none
