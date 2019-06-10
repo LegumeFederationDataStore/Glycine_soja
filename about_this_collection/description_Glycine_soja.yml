@@ -1,0 +1,9 @@
+%YAML 1.2
+##### Glycine soja	
+organism.taxonId:	3848
+organism.genus:	Glycine
+organism.species:	soja
+organism.name:	Glycine soja
+organism.abbrev:	glyso
+organism.commonName:	wild soybean
+organism.description:	Glycine soja is the closest wild relative of soybean, Glycine max. Populations of G. soja exist in the wild in China, Japan, Korea, and Russia. Analysis of genetic differences between the two species suggests that the two separated approximately 200 thousand years ago. The species remain interfertile, and G. soja accessions are used in breeding projects in order to introgress traits such as tolerance to particular diseases or environmental stresses.
