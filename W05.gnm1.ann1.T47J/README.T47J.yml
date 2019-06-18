@@ -71,4 +71,5 @@ file_transformation:
 changes: 
   - 2019-05-14 Initial repository created
   - 2019-05-10 Added AHRD descriptors; moved collection to public
-  - 2019-05-12 Tweak GFF for compliance: s/Range:/range=/
+  - 2019-06-12 Tweak GFF for compliance: s/Range:/range=/
+  - 2019-06-17 Tweak GFF for compliance: s/Name=ID=/Name=/
