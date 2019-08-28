@@ -3,8 +3,8 @@ ef3e8de579f70002131240208fa8f13a MANIFEST.T47J.descriptions.yml
 88c50aef44b0ccc7fb6d53ef73a916d6 README.T47J.yml
 b5b0f65239b048d84b9baac98bfbf4a2 glyso.W05.gnm1.ann1.T47J.cds.fna.gz
 7f39742aa21d3377c2d871a23f4f49af glyso.W05.gnm1.ann1.T47J.cds_primaryTranscript.fna.gz
-0ffdc9781fad373b9d4fea60b5f6cd78 glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3.gz
-c4d287bb146321e026902563e211eb3f glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3.gz.tbi
+58df2238b436cce02da53433ea4ac10f glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3.gz
+faac4176bff079a27f9cc0dac168e86c glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3.gz.tbi
 144d7c46ff8241f991c03551a4c17897 glyso.W05.gnm1.ann1.T47J.info.NCBIvsLocal.Seq.ID.map.txt.gz
 de0f70d7938fec6b98f00a8567e83bf6 glyso.W05.gnm1.ann1.T47J.info.NCBIvsLocal.gene.ID.map.txt.gz
 1d4e760c78a4e3033a4d2c6aeb3c37b3 glyso.W05.gnm1.ann1.T47J.info_annot_InterProScan.txt.gz
