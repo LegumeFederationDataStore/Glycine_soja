@@ -71,7 +71,8 @@ file_transformation:
 changes: 
   - 2019-05-14 Initial repository created
   - 2019-05-10 Added AHRD descriptors; moved collection to public
-  - 2019-06-12 Tweak GFF for compliance: s/Range:/range=/
-  - 2019-06-17 Tweak GFF for compliance: s/Name=ID=/Name=/
-  - 2019-08-28 Tweak GFF for compliance (one gene ID has too few dot-separated parts): s/ID=cds.Glysoja.10G027808/glyso.W05.gnm1.ann1.Glysoja.10G027808/
+  - 2019-06-12 Tweak GFF for compliance; s/Range:/range=/
+  - 2019-06-17 Tweak GFF for compliance; s/Name=ID=/Name=/
+  - 2019-08-28 Tweak GFF for compliance (one gene ID has too few dot-separated parts); s/ID=cds.Glysoja.10G027808/glyso.W05.gnm1.ann1.Glysoja.10G027808/
+  - 2020-04-16 Re-sorted glyso.W05.gnm1.ann1.T47J.gene_models_main.gff3 and removed problematic gene model 10G027808
 
