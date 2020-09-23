@@ -9,4 +9,4 @@ glyso.PI483463.gnm1.ann1.3Q3Q.repeatmasking.gff3: Coordinates for repeat-masking
 glyso.PI483463.gnm1.ann1.3Q3Q.transcript.fna: Transcripts
 glyso.PI483463.gnm1.ann1.3Q3Q.transcript_primaryTranscript.fna: Transcripts - primary only
 glyso.PI483463.gnm1.ann1.3Q3Q.info_annot.txt: Table of gene annotations from Phytozome
-
+glyso.PI483463.gnm1.ann1.3Q3Q.legfed_v1_0.M65K.gfa.tsv.gz: gene family assignments

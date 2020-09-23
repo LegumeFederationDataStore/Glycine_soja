@@ -61,4 +61,4 @@ file_transformation:
 changes: 
   - 2018-10-04 initial Legume Federation Data Store file preparation
   - 2018-10-10 Applied prefixes to fasta and GFF files - see file_transformations above.
-
+  - 2020-09-22 added gene family assignments
